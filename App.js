@@ -88,7 +88,7 @@ export default class App extends React.Component {
           />
         </View>
 
-
+        <Image source={require('./img/auxesis_new.png')} style={styles.auxesisimage} />
 
         <Text>Yup! Open up App.js to start working on your app!OK.</Text>
         <Text>Changes you make will automatically reload.</Text>
@@ -107,6 +107,10 @@ const styles = StyleSheet.create({
     height:'100%',
     //alignItems: 'center',
     //justifyContent: 'center'
+  },
+  auxesisimage:{
+    width:100,
+    height:30
   },
   headertext:{
     flex:1,
