@@ -93,6 +93,9 @@ export default class App extends React.Component {
         <Text>Yup! Open up App.js to start working on your app!OK.</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu. sdf</Text>
+
+        <Image source={require('./img/block.png')} style={styles.auxesisimage} />
+
         </ScrollView>
       </View>
     );
